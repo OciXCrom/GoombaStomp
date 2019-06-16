@@ -1,0 +1,26 @@
+[en] -- OciXCrom
+GOOMBA_MSG_ATTACKER = You goomba stomped %s
+GOOMBA_MSG_ATTACKER_DAMAGE = with %.0f damage
+GOOMBA_MSG_ATTACKER_HEALTH = - he now has %i HP
+GOOMBA_MSG_VICTIM = %s goomba stomped you
+GOOMBA_MSG_VICTIM_DAMAGE = with %.0f damage
+GOOMBA_MSG_EVERYONE = %s goomba stomped %s
+GOOMBA_MSG_EVERYONE_DAMAGE = with %.0f damage
+
+[mk] -- OciXCrom
+GOOMBA_MSG_ATTACKER = Goomba stompna %s
+GOOMBA_MSG_ATTACKER_DAMAGE = so %.0f shteta
+GOOMBA_MSG_ATTACKER_HEALTH = - toj sega ima %i HP
+GOOMBA_MSG_VICTIM = %s te goomba stompna
+GOOMBA_MSG_VICTIM_DAMAGE = so %.0f shteta
+GOOMBA_MSG_EVERYONE = %s goomba stompna %s
+GOOMBA_MSG_EVERYONE_DAMAGE = so %.0f shteta
+
+[bg] -- OciXCrom
+GOOMBA_MSG_ATTACKER = Goomba stompna %s
+GOOMBA_MSG_ATTACKER_DAMAGE = s %.0f shteta
+GOOMBA_MSG_ATTACKER_HEALTH = - toi sega ima %i HP
+GOOMBA_MSG_VICTIM = %s te goomba stompna
+GOOMBA_MSG_VICTIM_DAMAGE = s %.0f shteta
+GOOMBA_MSG_EVERYONE = %s goomba stompna %s
+GOOMBA_MSG_EVERYONE_DAMAGE = s %.0f shteta
