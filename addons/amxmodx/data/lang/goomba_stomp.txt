@@ -24,3 +24,30 @@ GOOMBA_MSG_VICTIM = %s te goomba stompna
 GOOMBA_MSG_VICTIM_DAMAGE = s %.0f shteta
 GOOMBA_MSG_EVERYONE = %s goomba stompna %s
 GOOMBA_MSG_EVERYONE_DAMAGE = s %.0f shteta
+
+[al] -- thEsp
+GOOMBA_MSG_ATTACKER = Ti shkele %s
+GOOMBA_MSG_ATTACKER_DAMAGE = me %.0f dëm
+GOOMBA_MSG_ATTACKER_HEALTH = - ai tani ka %i HP
+GOOMBA_MSG_VICTIM = %s të shkeli ty
+GOOMBA_MSG_VICTIM_DAMAGE = me %.0f dëm
+GOOMBA_MSG_EVERYONE = %s shkeli %s
+GOOMBA_MSG_EVERYONE_DAMAGE = me %.0f dëm
+
+[tr] -- Snake.
+GOOMBA_MSG_ATTACKER = %s oyuncusuna goomba ezisi yaptin
+GOOMBA_MSG_ATTACKER_DAMAGE = %.0f hasar ile
+GOOMBA_MSG_ATTACKER_HEALTH = - suan onun %i HP'si var
+GOOMBA_MSG_VICTIM = %s sana goomba ezisi yapti
+GOOMBA_MSG_VICTIM_DAMAGE = %.0f hasar ile
+GOOMBA_MSG_EVERYONE = %s, %s oyuncusuna goomba ezisi yapti
+GOOMBA_MSG_EVERYONE_DAMAGE = %.0f hasar ile
+
+[bp] -- iceeedR
+GOOMBA_MSG_ATTACKER = Voce caiu em cima do %s
+GOOMBA_MSG_ATTACKER_DAMAGE = com %.0f de dano
+GOOMBA_MSG_ATTACKER_HEALTH = - ele agora tem %i de HP
+GOOMBA_MSG_VICTIM = %s caiu em cima de voce
+GOOMBA_MSG_VICTIM_DAMAGE = com %.0f de dano
+GOOMBA_MSG_EVERYONE = %s caiu em cima do %s
+GOOMBA_MSG_EVERYONE_DAMAGE = com %.0f de dano
