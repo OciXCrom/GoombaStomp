@@ -7,7 +7,7 @@
 #include <hamsandwich>
 #include <msgstocks>
 
-new const PLUGIN_VERSION[] = "2.0"
+new const PLUGIN_VERSION[] = "2.0.1"
 
 #if !defined MAX_NAME_LENGTH
 const MAX_NAME_LENGTH = 32
@@ -130,11 +130,6 @@ ReadFile()
 				{
 					strtok(szData, szKey, charsmax(szKey), szValue, charsmax(szValue), '=')
 					trim(szKey); trim(szValue)
-
-					if(!szValue[0])
-					{
-						continue
-					}
 
 					TrieSetString(g_tSettings, szKey, szValue)
 
@@ -297,11 +292,7 @@ public PreTakeDamage(iVictim, iInflictor, iAttacker, Float:fDamage, iBits)
 		{
 			if(cs_get_user_team(iVictim) == cs_get_user_team(iEnt))
 			{
-				if(get_pcvar_num(g_pFriendlyFire))
-				{
-					goto @stomp
-				}
-				else
+				if(!get_pcvar_num(g_pFriendlyFire))
 				{
 					bApplySelfDamage = false
 
@@ -320,7 +311,6 @@ public PreTakeDamage(iVictim, iInflictor, iAttacker, Float:fDamage, iBits)
 			}
 		}
 
-		@stomp:
 		new Float:fNewDamage = math_add_f(fDamage, g_eSettings[goomba_damage_factor])
 		ExecuteHam(Ham_TakeDamage, iEnt, 0, iVictim, fNewDamage, DMG_FALL)
 
