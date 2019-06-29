@@ -131,23 +131,22 @@ ReadFile()
 					strtok(szData, szKey, charsmax(szKey), szValue, charsmax(szValue), '=')
 					trim(szKey); trim(szValue)
 
+					if(!szValue[0])
+					{
+						continue
+					}
+
 					TrieSetString(g_tSettings, szKey, szValue)
 
 					if(equal(szKey, "goomba_sound_kill"))
 					{
-						if(szValue[0])
-						{
-							copy(g_eSettings[goomba_sound_kill], charsmax(g_eSettings[goomba_sound_kill]), szValue)
-							precache_sound(szValue)
-						}
+						copy(g_eSettings[goomba_sound_kill], charsmax(g_eSettings[goomba_sound_kill]), szValue)
+						precache_sound(szValue)
 					}
 					else if(equal(szKey, "goomba_sound_damage"))
 					{
-						if(szValue[0])
-						{
-							copy(g_eSettings[goomba_sound_damage], charsmax(g_eSettings[goomba_sound_damage]), szValue)
-							precache_sound(szValue)
-						}
+						copy(g_eSettings[goomba_sound_damage], charsmax(g_eSettings[goomba_sound_damage]), szValue)
+						precache_sound(szValue)
 					}
 					else if(equal(szKey, "goomba_sound_type"))
 					{
