@@ -51,3 +51,12 @@ GOOMBA_MSG_VICTIM = %s caiu em cima de voce
 GOOMBA_MSG_VICTIM_DAMAGE = com %.0f de dano
 GOOMBA_MSG_EVERYONE = %s caiu em cima do %s
 GOOMBA_MSG_EVERYONE_DAMAGE = com %.0f de dano
+
+[de] -- Godofwar
+GOOMBA_MSG_ATTACKER =  Du bist auf %s gefallen
+GOOMBA_MSG_ATTACKER_DAMAGE = mit %.0f Schaden
+GOOMBA_MSG_ATTACKER_HEALTH = - Er hat jetzt %i HP
+GOOMBA_MSG_VICTIM = %s ist auf dich gefallen
+GOOMBA_MSG_VICTIM_DAMAGE = mit %.0f Schaden
+GOOMBA_MSG_EVERYONE = %s fiel auf %s
+GOOMBA_MSG_EVERYONE_DAMAGE = mit %.0f Schaden
