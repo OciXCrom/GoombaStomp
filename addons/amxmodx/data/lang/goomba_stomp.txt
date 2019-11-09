@@ -60,3 +60,12 @@ GOOMBA_MSG_VICTIM = %s ist auf dich gefallen
 GOOMBA_MSG_VICTIM_DAMAGE = mit %.0f Schaden
 GOOMBA_MSG_EVERYONE = %s fiel auf %s
 GOOMBA_MSG_EVERYONE_DAMAGE = mit %.0f Schaden
+
+[ru] -- kaldun89
+GOOMBA_MSG_ATTACKER = Вы Гумба растоптали %s
+GOOMBA_MSG_ATTACKER_DAMAGE = нанеся %.0f урона
+GOOMBA_MSG_ATTACKER_HEALTH = - теперь у него %i ХП
+GOOMBA_MSG_VICTIM = %s Гумба растоптал вас
+GOOMBA_MSG_VICTIM_DAMAGE = нанеся %.0f урона
+GOOMBA_MSG_EVERYONE = %s Гумба растоптал %s
+GOOMBA_MSG_EVERYONE_DAMAGE = нанеся %.0f урона
