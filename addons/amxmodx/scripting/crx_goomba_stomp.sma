@@ -285,6 +285,11 @@ public PreTakeDamage(iVictim, iInflictor, iAttacker, Float:fDamage, iBits)
 			return HAM_IGNORED
 		}
 
+		if(get_user_godmode(iEnt))
+		{
+			return HAM_IGNORED
+		}
+
 		new bool:bApplySelfDamage = true
 
 		if(bIsPlayer)
