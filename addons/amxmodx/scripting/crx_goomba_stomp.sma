@@ -7,7 +7,7 @@
 #include <hamsandwich>
 #include <msgstocks>
 
-new const PLUGIN_VERSION[] = "2.0.1"
+new const PLUGIN_VERSION[] = "2.0.2"
 
 #if !defined MAX_NAME_LENGTH
 const MAX_NAME_LENGTH = 32
@@ -251,7 +251,7 @@ ReadFile()
 
 public PreTakeDamage(iVictim, iInflictor, iAttacker, Float:fDamage, iBits)
 {
-	if(iBits & DMG_FALL && !is_user_connected(iAttacker))
+	if(iBits & DMG_FALL && (!is_user_connected(iAttacker) || iVictim == iAttacker))
 	{
 		if(g_eSettings[goomba_access_flag] != ADMIN_ALL && ~get_user_flags(iVictim) & g_eSettings[goomba_access_flag])
 		{
