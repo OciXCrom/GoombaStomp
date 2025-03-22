@@ -7,7 +7,7 @@
 #include <hamsandwich>
 #include <msgstocks>
 
-new const PLUGIN_VERSION[] = "2.0.2"
+new const PLUGIN_VERSION[] = "2.0.3"
 
 #if !defined MAX_NAME_LENGTH
 const MAX_NAME_LENGTH = 32
@@ -285,7 +285,7 @@ public PreTakeDamage(iVictim, iInflictor, iAttacker, Float:fDamage, iBits)
 			return HAM_IGNORED
 		}
 
-		if(get_user_godmode(iEnt))
+		if(bIsPlayer && get_user_godmode(iEnt))
 		{
 			return HAM_IGNORED
 		}
